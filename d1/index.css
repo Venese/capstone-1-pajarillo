@@ -1,0 +1,128 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	color: magenta;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: purple;
+}
+
+#landing {
+	height: 100vh;
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+	background: url(../images/girl.jpg);
+	justify-content: space-around;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+img {
+	height: 260px;
+	width: 280px;
+}
+
+#gallery {
+	padding: 5vh 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+.tools {
+	border: 5px solid;
+	width: 95%;
+	margin: 20px;
+	padding: 25px;
+	color: hotpink;
+}
+
+h2 {
+	color: lightpink;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 480px) {
+  .tools > h2 {
+    font-size: 25px;
+  }
+}
+
+#venese {
+	
+}
+
+img {
+	border-radius: 8px;
+}
+
+div.container-fluid {
+	padding-left: 5%;
+}
+
+div.container {
+	color: hotpink;
+
+}
+
+#venese {
+	height: 100vh;
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+	background: url(../images/pinkskies.jpg);
+	justify-content: space-around;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   }
+
+p {
+	color: lightpink;
+	font-size: 95%;
+}
+
+element.style {
+}
+.pb-5, .py-5 {
+    padding-bottom: 3rem!important;
+}
+.pt-5, .py-5 {
+    padding-top: 3rem!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    background-color: #fff;
+}
